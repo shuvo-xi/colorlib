@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+header{
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    margin-left: 200px;
+    padding: 20px;
+
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0%;
+    margin-right: 200px;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 10px;
+
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(110, 106, 106);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+header .nav ul li a:hover{
+    color: #7f97ff;
+}
+/*section one srart*/
+section{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+
+}
+.half1, .half2{
+    width: 50%;
+}
+.half1{
+    margin-left: 230px;
+    margin-bottom: 120px;
+}
+.half2{
+    padding-right: 160px;
+}
+.half2 img{
+    max-width: 100%;
+    height: auto;
+}
+.half3 h3{
+    font-weight: normal;
+}
+.half1 p{
+    color: rgba(56, 51, 51);
+}
+.half1 input{
+    padding:8px 20px ;
+    background-color: #8393ff;
+    outline: none;
+    color: white;
+    border: 1px solid #8393ff;
+}
+.half1 input:hover{
+    box-shadow: 5px 10px 32px #8393ff;
+    transition: all 0.5s ease-in 0.1;
+    outline: none;
+
+}
